@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/iconfonts/iconfont.css">
+    <title></title>
+</head>
+
+<body>
+    <div id="sidebar" class="sidebar responsive ace-save-state">
+        <script type="text/javascript">
+            try {
+                ace.settings.loadState('sidebar')
+            } catch (e) { }
+        </script>
+
+        <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+            <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+                <button class="btn btn-success">
+                    <i class="ace-icon fa fa-signal"></i>
+                </button>
+
+                <button class="btn btn-info">
+                    <i class="ace-icon fa fa-pencil"></i>
+                </button>
+
+                <button class="btn btn-warning">
+                    <i class="ace-icon fa fa-users"></i>
+                </button>
+
+                <button class="btn btn-danger">
+                    <i class="ace-icon fa fa-cogs"></i>
+                </button>
+            </div>
+
+            <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+                <span class="btn btn-success"></span>
+
+                <span class="btn btn-info"></span>
+
+                <span class="btn btn-warning"></span>
+
+                <span class="btn btn-danger"></span>
+            </div>
+        </div>
+        <!-- /.sidebar-shortcuts -->
+
+        <ul class="nav nav-list">
+            <!-- 仪表版 -->
+            <li class="active">
+                <a href="/admin/dashboard">
+                    <i class="menu-icon fa fa-tachometer"></i>
+                    <span class="menu-text"> 仪表板 </span>
+                </a>
+                <b class="arrow"></b>
+            </li>
+            <!-- 系统首页 -->
+            <li class="">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa iconfont icon-app_icons--"></i>
+                    <span class="menu-text"> 系统首页 </span>
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+                <b class="arrow"></b>
+                <ul class="submenu">
+                    <li class="">
+                        <a href="/admin/systemIndex/banner">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            广告轮播
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li class="">
+                        <a href="/admin/systemIndex/classify">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            分类导航
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li class="">
+                        <a href="/admin/systemIndex/recommend">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            推荐商品
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li class="">
+                        <a href="/admin/systemIndex/hotbuy">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            热购商品
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+            <!-- 商品 -->
+            <li class="">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa iconfont icon-shangpin"></i>
+                    <span class="menu-text"> 商品 </span>
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+                <b class="arrow"></b>
+                <ul class="submenu">
+                    <li class="">
+                        <a href="/admin/goods/list">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            商品列表
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li class="">
+                        <a href="jqgrid.html">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            商品分类
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li class="">
+                        <a href="jqgrid.html">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            商品评价
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+            <!-- 营销 -->
+            <li class="">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa iconfont icon-yingxiao"></i>
+                    <span class="menu-text">
+                        营销
+                    </span>
+
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+
+                <b class="arrow"></b>
+
+                <ul class="submenu">
+                    <li class="">
+                        <a href="#" class="dropdown-toggle">
+                            <i class="menu-icon fa fa-caret-right"></i> 优惠卷
+                            <b class="arrow fa fa-angle-down"></b>
+                        </a>
+                        <b class="arrow"></b>
+
+                        <ul class="submenu">
+                            <li class="">
+                                <a href="top-menu.html">
+                                    <i class="menu-icon fa fa-caret-right"></i> 优惠卷列表
+                                </a>
+
+                                <b class="arrow"></b>
+                            </li>
+                            <li class="">
+                                <a href="top-menu.html">
+                                    <i class="menu-icon fa fa-caret-right"></i>领取记录
+                                </a>
+
+                                <b class="arrow"></b>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="">
+                <a href="#" class="dropdown-toggle">
+                    <i class="menu-icon fa iconfont icon-yonghuming"></i>
+                    <span class="menu-text"> 用户中心 </span>
+                    <b class="arrow fa fa-angle-down"></b>
+                </a>
+                <b class="arrow"></b>
+                <ul class="submenu">
+                    <li class="">
+                        <a href="/admin/users/list">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            用户列表
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                    <li class="">
+                        <a href="/admin/users/level">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            用户等级
+                        </a>
+                        <b class="arrow"></b>
+                    </li>
+                </ul>
+            </li>
+            <i class="bi shield-fill-check" fill="currentColor"></i>
+        </ul>
+        <!-- /.nav-list -->
+
+        <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+            <i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state"
+                data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+        </div>
+    </div>
+</body>
+<!-- <script src="/assets/js/jquery-2.1.4.min.js"></script> -->
+<!-- bootstarp.js -->
+<!-- <script src="/assets/js/bootstrap.min.js"></script> -->
+<!-- ace.js -->
+<!-- <script src="/assets/js/ace-elements.min.js"></script>
+<script src="/assets/js/ace.min.js"></script> -->
+</html>

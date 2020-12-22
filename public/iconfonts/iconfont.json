@@ -1,0 +1,37 @@
+{
+  "id": "2126577",
+  "name": "node-gift",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "924722",
+      "name": "用户名",
+      "font_class": "yonghuming",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1719300",
+      "name": "营销",
+      "font_class": "yingxiao",
+      "unicode": "e7b5",
+      "unicode_decimal": 59317
+    },
+    {
+      "icon_id": "4251753",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "5147485",
+      "name": "首页",
+      "font_class": "app_icons--",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}

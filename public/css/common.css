@@ -1,0 +1,27 @@
+.title{
+    font-size: 16px;
+    display: flex;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #E2E2E2;
+    align-items: center;
+}
+.title .title-line{
+    width: 4px;
+    height: 14px;
+    margin-right: 10px;
+    background-color: #2679B5;
+    
+}
+.title .title-txt{
+    font-weight: 300;
+}
+.fon-16{
+    font-size: 16px;
+}
+.bag-2{
+    background-color: #2679B5;
+}
+.fon-col-3{
+    color: #333;
+}
