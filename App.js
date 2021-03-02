@@ -5,7 +5,7 @@ let index = require('./routers/index');
 // 后台模块
 let admin = require('./routers/admin');
 app.use('/index', index);
-app.use('/admin', admin);
+// app.use('/admin', admin);
 //ejs模板引擎
 app.set('view engine', 'ejs');
 // public静态目录
