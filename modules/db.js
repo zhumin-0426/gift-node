@@ -3,9 +3,9 @@ const mongodb = require('mongodb');
 // 数据库地址
 const dataBaseUrl = "mongodb://127.0.0.1:27017/gift";
 // events模块
-const events = require("events");
-const EventEmitter = new events.EventEmitter();
-const { query } = require('express');
+// const events = require("events");
+// const EventEmitter = new events.EventEmitter();
+// const { query } = require('express');
 // 数据库模块化
 function _mongoModul(callback) {
     // 数据库链接
